@@ -14,7 +14,7 @@ def main():
   # used model:
   image_path = st.file_uploader("choose or upload an image of unhealthy potato leaf", type = ["jpg", "jpeg", "png", "webp"])
 
-  if image_path is not none:
+  if image_path is not None:
   
     img_height, img_width = 150, 150
 
