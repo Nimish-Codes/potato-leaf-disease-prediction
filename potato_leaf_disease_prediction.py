@@ -33,7 +33,7 @@ def main():
         return predicted_class
     
       predicted_class = predict_leaf_disease(image_path)
-      st.success("Predicted disease:", predicted_class)
+      st.success(f'Predicted disease: {predicted_class}')
 
 if __name__ == '__main__':
   main()
