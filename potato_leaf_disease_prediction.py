@@ -13,7 +13,7 @@ with open('potato_leaf_disease.pkl', 'rb') as f:
 def main():
 
     st.title("Potatoo leaf disease prediction")
-    st.warning("upload only unhealthy(Early blight or Late blight) potato leaf image")
+    st.warning("Upload only unhealthy(Early blight or Late blight) single potato leaf image")
     
     # used model:
     image_path = st.file_uploader("choose or upload an image of unhealthy potato leaf", type = ["jpg", "jpeg", "png", "webp"])
